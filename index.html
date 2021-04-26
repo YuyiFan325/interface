@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>interface</title>
+	
+	<link rel="stylesheet" href="jquery-ui.css">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.min.js"></script>
+	<script type="text/javascript" src="sketch.js"></script>
+
+</head>
+<body>
+		
+		
+
+		<div class="aboutLeft">Oracle Bone Script</div>
+		<img src="arrow1.png" class="arrow1">
+		<div class="aboutRight">Meanings</div>
+
+
+	<div class="pictures">
+		<div class="pic1"><img src="oracle/sun-2.png"></div>
+		<div class="pic2"><img src="oracle/moon-2.png"></div>
+		<div class="pic3"><img src="oracle/rain-2.png"></div>
+		<div class="pic4"><img src="oracle/wind-2.png"></div>
+		<div class="pic5"><img src="oracle/people-2.png"></div>
+		<div class="pic6"><img src="oracle/water-2.png"></div>
+		<div class="pic7"><img src="oracle/fire-2.png"></div>
+		<div class="pic8"><img src="oracle/mountain-2.png"></div>
+		<div class="pic9"><img src="oracle/wood-2.png"></div>
+
+	</div>
+
+
+	<div class="display">
+		<img src="oracle/sun-2.png" class="pic1-2">
+		<img src="oracle/moon-2.png" class="pic2-2">
+		<img src="oracle/rain-2.png" class="pic3-2">
+		<img src="oracle/wind-2.png" class="pic4-2">
+		<img src="oracle/people-2.png" class="pic5-2">
+		<img src="oracle/water-2.png" class="pic6-2">
+		<img src="oracle/fire-2.png" class="pic7-2">
+		<img src="oracle/mountain-2.png" class="pic8-2">
+		<img src="oracle/wood-2.png" class="pic9-2">
+	</div>
+
+
+	<div class="empty">
+			<div class="text" id="txt1">sun</div>
+			<div class="text" id="txt2">moon</div>
+			<div class="text" id="txt3">rain</div>
+			<div class="text" id="txt4">wind</div>
+			<div class="text" id="txt5">people</div>
+			<div class="text" id="txt6">water</div>
+			<div class="text" id="txt7">fire</div>
+			<div class="text" id="txt8">mountain</div>
+			<div class="text" id="txt9">wood</div>
+			<div class="arrow"><img src="arrow2.png" class="arrow2"></div>
+	</div>
+
+
+
+
+	<div class="aboutBottom">Evolution</div>
+
+	<div class="evolution">
+		<div class="images">
+			<div class="scripts">
+				<img src="oracle/sun-1.png" class ="sun" id="sun1">
+				<img src="bronze/sun-1.png" class ="sun" id="sun2">
+				<img src="seal/sun-1.png" class ="sun" id="sun3">
+				<img src="regular/sun-1.png" class ="sun" id="sun4">
+				<img src="simplified/sun-1.png" class ="sun" id="sun5">
+
+				<img src="oracle/moon-1.png" class ="moon" id="moon1">
+				<img src="bronze/moon-1.png" class ="moon" id="moon2">
+				<img src="seal/moon-1.png" class ="moon" id="moon3">
+				<img src="regular/moon-1.png" class ="moon" id="moon4">
+				<img src="simplified/moon-1.png" class ="moon" id="moon5">
+
+				<img src="oracle/rain-1.png" class ="rain" id="rain1">
+				<img src="bronze/rain-1.png" class ="rain" id="rain2">
+				<img src="seal/rain-1.png" class ="rain" id="rain3">
+				<img src="regular/rain-1.png" class ="rain" id="rain4">
+				<img src="simplified/rain-1.png" class ="rain" id="rain5">
+
+				<img src="oracle/wind-1.png" class ="wind" id="wind1">
+				<img src="bronze/wind-1.png" class ="wind" id="wind2">
+				<img src="seal/wind-1.png" class ="wind" id="wind3">
+				<img src="regular/wind-1.png" class ="wind" id="wind4">
+				<img src="simplified/wind-1.png" class ="wind" id="wind5">
+
+				<img src="oracle/people-1.png" class ="people" id="people1">
+				<img src="bronze/people-1.png" class ="people" id="people2">
+				<img src="seal/people-1.png" class ="people" id="people3">
+				<img src="regular/people-1.png" class ="people" id="people4">
+				<img src="simplified/people-1.png" class ="people" id="people5">
+
+				<img src="oracle/water-1.png" class ="water" id="water1">
+				<img src="bronze/water-1.png" class ="water" id="water2">
+				<img src="seal/water-1.png" class ="water" id="water3">
+				<img src="regular/water-1.png" class ="water" id="water4">
+				<img src="simplified/water-1.png" class ="water" id="water5">
+
+				<img src="oracle/fire-1.png" class ="fire" id="fire1">
+				<img src="bronze/fire-1.png" class ="fire" id="fire2">
+				<img src="seal/fire-1.png" class ="fire" id="fire3">
+				<img src="regular/fire-1.png" class ="fire" id="fire4">
+				<img src="simplified/fire-1.png" class ="fire" id="fire5">
+
+				<img src="oracle/mountain-1.png" class ="mountain" id="mountain1">
+				<img src="bronze/mountain-1.png" class ="mountain" id="mountain2">
+				<img src="seal/mountain-1.png" class ="mountain" id="mountain3">
+				<img src="regular/mountain-1.png" class ="mountain" id="mountain4">
+				<img src="simplified/mountain-1.png" class ="mountain" id="mountain5">
+
+				<img src="oracle/wood-1.png" class ="wood" id="wood1">
+				<img src="bronze/wood-1.png" class ="wood" id="wood2">
+				<img src="seal/wood-1.png" class ="wood" id="wood3">
+				<img src="regular/wood-1.png" class ="wood" id="wood4">
+				<img src="simplified/wood-1.png" class ="wood" id="wood5">
+			</div>
+		</div>
+
+		<div class="slider">
+			<div class="thumb">
+				<div class="thumbUp"></div>
+				<div class="thumbDown"></div>
+			</div>
+			<div class="prograss-bar"></div>
+			<input type="range" min="0" max="100" value="0">
+		</div>	
+
+		<img src="icon.png" class="icon">
+
+		<div class="calendar">
+			<div class="oracle"><strong>Oracle Bone Script</strong> <br> Late 2nd Millennium BC</div>
+			<div class="bronze"><strong>Bronze Script</strong> <br> 2nd Millennium BC to 11th–3rd Century BC</div>
+			<div class="seal"><strong>Seal Script</strong> <br> Bronze Age China</div>
+			<div class="regular"><strong>Regular Script</strong> <br> Bronze Age China, Iron Age China, Present day</div>
+			<div class="simplified"><strong>Simplified Script</strong> <br> 1956-Present</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<script>
+		const slider = document.querySelector("input");
+		const bar = document.querySelector(".prograss-bar");
+		const thumbUp = document.querySelector(".thumbUp");
+		const thumbDown = document.querySelector(".thumbDown");
+		const slidePic = document.querySelector(".scripts");
+		const oracle = document.querySelector(".oracle");
+		const bronze = document.querySelector(".bronze");
+		const seal = document.querySelector(".seal");
+		const regular = document.querySelector(".regular");
+		const simplified = document.querySelector(".simplified");
+
+		const sun1 = document.getElementById("sun1")
+		const sun2 = document.getElementById("sun2")
+		const sun3 = document.getElementById("sun3")
+		const sun4 = document.getElementById("sun4")
+		const sun5 = document.getElementById("sun5")
+
+		const moon1 = document.getElementById("moon1")
+		const moon2 = document.getElementById("moon2")
+		const moon3 = document.getElementById("moon3")
+		const moon4 = document.getElementById("moon4")
+		const moon5 = document.getElementById("moon5")
+
+		const rain1 = document.getElementById("rain1")
+		const rain2 = document.getElementById("rain2")
+		const rain3 = document.getElementById("rain3")
+		const rain4 = document.getElementById("rain4")
+		const rain5 = document.getElementById("rain5")
+
+		const wind1 = document.getElementById("wind1")
+		const wind2 = document.getElementById("wind2")
+		const wind3 = document.getElementById("wind3")
+		const wind4 = document.getElementById("wind4")
+		const wind5 = document.getElementById("wind5")
+
+		const people1 = document.getElementById("people1")
+		const people2 = document.getElementById("people2")
+		const people3 = document.getElementById("people3")
+		const people4 = document.getElementById("people4")
+		const people5 = document.getElementById("people5")
+
+		const water1 = document.getElementById("water1")
+		const water2 = document.getElementById("water2")
+		const water3 = document.getElementById("water3")
+		const water4 = document.getElementById("water4")
+		const water5 = document.getElementById("water5")
+
+		const fire1 = document.getElementById("fire1")
+		const fire2 = document.getElementById("fire2")
+		const fire3 = document.getElementById("fire3")
+		const fire4 = document.getElementById("fire4")
+		const fire5 = document.getElementById("fire5")
+
+		const mountain1 = document.getElementById("mountain1")
+		const mountain2 = document.getElementById("mountain2")
+		const mountain3 = document.getElementById("mountain3")
+		const mountain4 = document.getElementById("mountain4")
+		const mountain5 = document.getElementById("mountain5")
+
+		const wood1 = document.getElementById("wood1")
+		const wood2 = document.getElementById("wood2")
+		const wood3 = document.getElementById("wood3")
+		const wood4 = document.getElementById("wood4")
+		const wood5 = document.getElementById("wood5")
+		
+		slider.oninput = function(){
+			let value =slider.value;
+			thumbUp.style.left = value + "%";
+			thumbDown.style.left = value + "%";
+			bar.style.width = value + "%";
+			if(value < 5){
+				sun1.style.opacity = "0";
+				sun2.style.opacity = "0";
+				sun3.style.opacity = "0";
+				sun4.style.opacity = "0";
+				sun5.style.opacity = "0";
+
+				moon1.style.opacity = "0";
+				moon2.style.opacity = "0";
+				moon3.style.opacity = "0";
+				moon4.style.opacity = "0";
+				moon5.style.opacity = "0";
+
+				rain1.style.opacity = "0";
+				rain2.style.opacity = "0";
+				rain3.style.opacity = "0";
+				rain4.style.opacity = "0";
+				rain5.style.opacity = "0";
+
+				wind1.style.opacity = "0";
+				wind2.style.opacity = "0";
+				wind3.style.opacity = "0";
+				wind4.style.opacity = "0";
+				wind5.style.opacity = "0";
+
+				people1.style.opacity = "0";
+				people2.style.opacity = "0";
+				people3.style.opacity = "0";
+				people4.style.opacity = "0";
+				people5.style.opacity = "0";	
+				
+				water1.style.opacity = "0";
+				water2.style.opacity = "0";
+				water3.style.opacity = "0";
+				water4.style.opacity = "0";
+				water5.style.opacity = "0";
+
+				fire1.style.opacity = "0";
+				fire2.style.opacity = "0";
+				fire3.style.opacity = "0";
+				fire4.style.opacity = "0";
+				fire5.style.opacity = "0";			
+
+				mountain1.style.opacity = "0";
+				mountain2.style.opacity = "0";
+				mountain3.style.opacity = "0";
+				mountain4.style.opacity = "0";
+				mountain5.style.opacity = "0";
+
+				wood1.style.opacity = "0";
+				wood2.style.opacity = "0";
+				wood3.style.opacity = "0";
+				wood4.style.opacity = "0";
+				wood5.style.opacity = "0";
+
+				thumbUp.style.opacity = "1";
+				thumbDown.style.opacity = "1";
+				oracle.style.opacity = "0";
+			}
+			if(value >=5){
+				sun1.style.opacity = "0.3";
+				sun2.style.opacity = "0";
+				sun3.style.opacity = "0";
+				sun4.style.opacity = "0";
+				sun5.style.opacity = "0";
+
+				moon1.style.opacity = "0.3";
+				moon2.style.opacity = "0";
+				moon3.style.opacity = "0";
+				moon4.style.opacity = "0";
+				moon5.style.opacity = "0";
+
+				rain1.style.opacity = "0.3";
+				rain2.style.opacity = "0";
+				rain3.style.opacity = "0";
+				rain4.style.opacity = "0";
+				rain5.style.opacity = "0";
+
+				wind1.style.opacity = "0.3";
+				wind2.style.opacity = "0";
+				wind3.style.opacity = "0";
+				wind4.style.opacity = "0";
+				wind5.style.opacity = "0";
+
+				people1.style.opacity = "0.3";
+				people2.style.opacity = "0";
+				people3.style.opacity = "0";
+				people4.style.opacity = "0";
+				people5.style.opacity = "0";
+
+				water1.style.opacity = "0.3";
+				water2.style.opacity = "0";
+				water3.style.opacity = "0";
+				water4.style.opacity = "0";
+				water5.style.opacity = "0";
+
+				fire1.style.opacity = "0.3";
+				fire2.style.opacity = "0";
+				fire3.style.opacity = "0";
+				fire4.style.opacity = "0";
+				fire5.style.opacity = "0";
+
+				mountain1.style.opacity = "0.3";
+				mountain2.style.opacity = "0";
+				mountain3.style.opacity = "0";
+				mountain4.style.opacity = "0";
+				mountain5.style.opacity = "0";
+
+				wood1.style.opacity = "0.3";
+				wood2.style.opacity = "0";
+				wood3.style.opacity = "0";
+				wood4.style.opacity = "0";
+				wood5.style.opacity = "0";
+
+				thumbUp.style.opacity = "0.9";
+				thumbDown.style.opacity = "0.9";
+				oracle.style.opacity = "1";
+
+			}
+			if(value >= 12){
+				sun1.style.opacity = "0.6"
+				sun2.style.opacity = "0";
+				sun3.style.opacity = "0";
+				sun4.style.opacity = "0";
+				sun5.style.opacity = "0";
+
+				moon1.style.opacity = "0.6";
+				moon2.style.opacity = "0";
+				moon3.style.opacity = "0";
+				moon4.style.opacity = "0";
+				moon5.style.opacity = "0";
+
+				rain1.style.opacity = "0.6";
+				rain2.style.opacity = "0";
+				rain3.style.opacity = "0";
+				rain4.style.opacity = "0";
+				rain5.style.opacity = "0";
+
+				wind1.style.opacity = "0.6";
+				wind2.style.opacity = "0";
+				wind3.style.opacity = "0";
+				wind4.style.opacity = "0";
+				wind5.style.opacity = "0";
+
+				people1.style.opacity = "0.6";
+				people2.style.opacity = "0";
+				people3.style.opacity = "0";
+				people4.style.opacity = "0";
+				people5.style.opacity = "0";
+
+				water1.style.opacity = "0.6";
+				water2.style.opacity = "0";
+				water3.style.opacity = "0";
+				water4.style.opacity = "0";
+				water5.style.opacity = "0";
+
+				fire1.style.opacity = "0.6";
+				fire2.style.opacity = "0";
+				fire3.style.opacity = "0";
+				fire4.style.opacity = "0";
+				fire5.style.opacity = "0";
+
+				mountain1.style.opacity = "0.6";
+				mountain2.style.opacity = "0";
+				mountain3.style.opacity = "0";
+				mountain4.style.opacity = "0";
+				mountain5.style.opacity = "0";
+
+				wood1.style.opacity = "0.6";
+				wood2.style.opacity = "0";
+				wood3.style.opacity = "0";
+				wood4.style.opacity = "0";
+				wood5.style.opacity = "0";
+
+				thumbUp.style.opacity = "0.8";
+				thumbDown.style.opacity = "0.8";
+				bronze.style.opacity = "0";
+			}
+			if(value >= 20){
+				sun1.style.opacity = "1"
+				sun2.style.opacity = "0.3";
+				sun3.style.opacity = "0";
+				sun4.style.opacity = "0";
+				sun5.style.opacity = "0";
+
+				moon1.style.opacity = "1";
+				moon2.style.opacity = "0.3";
+				moon3.style.opacity = "0";
+				moon4.style.opacity = "0";
+				moon5.style.opacity = "0";
+
+				rain1.style.opacity = "1";
+				rain2.style.opacity = "0.3";
+				rain3.style.opacity = "0";
+				rain4.style.opacity = "0";
+				rain5.style.opacity = "0";
+
+				wind1.style.opacity = "1";
+				wind2.style.opacity = "0.3";
+				wind3.style.opacity = "0";
+				wind4.style.opacity = "0";
+				wind5.style.opacity = "0";
+
+				people1.style.opacity = "1";
+				people2.style.opacity = "0.3";
+				people3.style.opacity = "0";
+				people4.style.opacity = "0";
+				people5.style.opacity = "0";
+
+				water1.style.opacity = "1";
+				water2.style.opacity = "0.3";
+				water3.style.opacity = "0";
+				water4.style.opacity = "0";
+				water5.style.opacity = "0";
+
+				fire1.style.opacity = "1";
+				fire2.style.opacity = "0.3";
+				fire3.style.opacity = "0";
+				fire4.style.opacity = "0";
+				fire5.style.opacity = "0";
+
+				mountain1.style.opacity = "1";
+				mountain2.style.opacity = "0.3";
+				mountain3.style.opacity = "0";
+				mountain4.style.opacity = "0";
+				mountain5.style.opacity = "0";
+
+				wood1.style.opacity = "1";
+				wood2.style.opacity = "0.3";
+				wood3.style.opacity = "0";
+				wood4.style.opacity = "0";
+				wood5.style.opacity = "0";
+
+				thumbUp.style.opacity = "0.7";
+				thumbDown.style.opacity = "0.7";
+				bronze.style.opacity = "1";
+			}
+			if(value >= 30){
+				sun1.style.opacity = "1"
+				sun2.style.opacity = "0.6";
+				sun3.style.opacity = "0";
+				sun4.style.opacity = "0";
+				sun5.style.opacity = "0";
+
+				moon1.style.opacity = "1";
+				moon2.style.opacity = "0.6";
+				moon3.style.opacity = "0";
+				moon4.style.opacity = "0";
+				moon5.style.opacity = "0";
+
+				rain1.style.opacity = "1";
+				rain2.style.opacity = "0.6";
+				rain3.style.opacity = "0";
+				rain4.style.opacity = "0";
+				rain5.style.opacity = "0";
+
+				wind1.style.opacity = "1";
+				wind2.style.opacity = "0.6";
+				wind3.style.opacity = "0";
+				wind4.style.opacity = "0";
+				wind5.style.opacity = "0";
+
+				people1.style.opacity = "1";
+				people2.style.opacity = "0.6";
+				people3.style.opacity = "0";
+				people4.style.opacity = "0";
+				people5.style.opacity = "0";
+
+				water1.style.opacity = "1";
+				water2.style.opacity = "0.6";
+				water3.style.opacity = "0";
+				water4.style.opacity = "0";
+				water5.style.opacity = "0";
+
+				fire1.style.opacity = "1";
+				fire2.style.opacity = "0.6";
+				fire3.style.opacity = "0";
+				fire4.style.opacity = "0";
+				fire5.style.opacity = "0";
+
+				mountain1.style.opacity = "1";
+				mountain2.style.opacity = "0.6";
+				mountain3.style.opacity = "0";
+				mountain4.style.opacity = "0";
+				mountain5.style.opacity = "0";
+
+				wood1.style.opacity = "1";
+				wood2.style.opacity = "0.6";
+				wood3.style.opacity = "0";
+				wood4.style.opacity = "0";
+				wood5.style.opacity = "0";
+
+				thumbUp.style.opacity = "0.6";
+				thumbDown.style.opacity = "0.6";
+				seal.style.opacity= "0";
+			}
+			if(value >= 38){
+				sun1.style.opacity = "1"
+				sun2.style.opacity = "1";
+				sun3.style.opacity = "0.3";
+				sun4.style.opacity = "0";
+				sun5.style.opacity = "0";
+
+				moon1.style.opacity = "1";
+				moon2.style.opacity = "1";
+				moon3.style.opacity = "0.3";
+				moon4.style.opacity = "0";
+				moon5.style.opacity = "0";
+
+				rain1.style.opacity = "1";
+				rain2.style.opacity = "1";
+				rain3.style.opacity = "0.3";
+				rain4.style.opacity = "0";
+				rain5.style.opacity = "0";
+
+				wind1.style.opacity = "1";
+				wind2.style.opacity = "1";
+				wind3.style.opacity = "0.3";
+				wind4.style.opacity = "0";
+				wind5.style.opacity = "0";
+
+				people1.style.opacity = "1";
+				people2.style.opacity = "1";
+				people3.style.opacity = "0.3";
+				people4.style.opacity = "0";
+				people5.style.opacity = "0";
+
+				water1.style.opacity = "1";
+				water2.style.opacity = "1";
+				water3.style.opacity = "0.3";
+				water4.style.opacity = "0";
+				water5.style.opacity = "0";
+
+				fire1.style.opacity = "1";
+				fire2.style.opacity = "1";
+				fire3.style.opacity = "0.3";
+				fire4.style.opacity = "0";
+				fire5.style.opacity = "0";
+
+				mountain1.style.opacity = "1";
+				mountain2.style.opacity = "1";
+				mountain3.style.opacity = "0.3";
+				mountain4.style.opacity = "0";
+				mountain5.style.opacity = "0";
+
+				wood1.style.opacity = "1";
+				wood2.style.opacity = "1";
+				wood3.style.opacity = "0.3";
+				wood4.style.opacity = "0";
+				wood5.style.opacity = "0";
+
+				thumbUp.style.opacity = "0.5";
+				thumbDown.style.opacity = "0.5";
+			}
+			if(value >= 45){
+				sun1.style.opacity = "1"
+				sun2.style.opacity = "1";
+				sun3.style.opacity = "0.6";
+				sun4.style.opacity = "0";
+				sun5.style.opacity = "0";
+
+				moon1.style.opacity = "1";
+				moon2.style.opacity = "1";
+				moon3.style.opacity = "0.6";
+				moon4.style.opacity = "0";
+				moon5.style.opacity = "0";
+
+				rain1.style.opacity = "1";
+				rain2.style.opacity = "1";
+				rain3.style.opacity = "0.6";
+				rain4.style.opacity = "0";
+				rain5.style.opacity = "0";
+
+				wind1.style.opacity = "1";
+				wind2.style.opacity = "1";
+				wind3.style.opacity = "0.6";
+				wind4.style.opacity = "0";
+				wind5.style.opacity = "0";
+
+				people1.style.opacity = "1";
+				people2.style.opacity = "1";
+				people3.style.opacity = "0.6";
+				people4.style.opacity = "0";
+				people5.style.opacity = "0";
+
+				water1.style.opacity = "1";
+				water2.style.opacity = "1";
+				water3.style.opacity = "0.6";
+				water4.style.opacity = "0";
+				water5.style.opacity = "0";
+
+				fire1.style.opacity = "1";
+				fire2.style.opacity = "1";
+				fire3.style.opacity = "0.6";
+				fire4.style.opacity = "0";
+				fire5.style.opacity = "0";
+
+				mountain1.style.opacity = "1";
+				mountain2.style.opacity = "1";
+				mountain3.style.opacity = "0.6";
+				mountain4.style.opacity = "0";
+				mountain5.style.opacity = "0";
+
+				wood1.style.opacity = "1";
+				wood2.style.opacity = "1";
+				wood3.style.opacity = "0.6";
+				wood4.style.opacity = "0";
+				wood5.style.opacity = "0";
+
+				thumbUp.style.opacity = "0.4";
+				thumbDown.style.opacity = "0.4";
+				seal.style.opacity = "1";
+			}
+			if(value >= 55){
+				sun1.style.opacity = "1"
+				sun2.style.opacity = "1";
+				sun3.style.opacity = "1";
+				sun4.style.opacity = "0.3";
+				sun5.style.opacity = "0";
+
+				moon1.style.opacity = "1";
+				moon2.style.opacity = "1";
+				moon3.style.opacity = "0.3";
+				moon4.style.opacity = "0";
+				moon5.style.opacity = "0";
+
+				rain1.style.opacity = "1";
+				rain2.style.opacity = "1";
+				rain3.style.opacity = "0.3";
+				rain4.style.opacity = "0";
+				rain5.style.opacity = "0";
+
+				wind1.style.opacity = "1";
+				wind2.style.opacity = "1";
+				wind3.style.opacity = "0.3";
+				wind4.style.opacity = "0";
+				wind5.style.opacity = "0";
+
+				people1.style.opacity = "1";
+				people2.style.opacity = "1";
+				people3.style.opacity = "0.3";
+				people4.style.opacity = "0";
+				people5.style.opacity = "0";
+
+				water1.style.opacity = "1";
+				water2.style.opacity = "1";
+				water3.style.opacity = "0.3";
+				water4.style.opacity = "0";
+				water5.style.opacity = "0";
+
+				fire1.style.opacity = "1";
+				fire2.style.opacity = "1";
+				fire3.style.opacity = "0.3";
+				fire4.style.opacity = "0";
+				fire5.style.opacity = "0";
+
+				mountain1.style.opacity = "1";
+				mountain2.style.opacity = "1";
+				mountain3.style.opacity = "0.3";
+				mountain4.style.opacity = "0";
+				mountain5.style.opacity = "0";
+
+				wood1.style.opacity = "1";
+				wood2.style.opacity = "1";
+				wood3.style.opacity = "0.3";
+				wood4.style.opacity = "0";
+				wood5.style.opacity = "0";
+
+				thumbUp.style.opacity = "0.3";
+				thumbDown.style.opacity = "0.3";
+				regular.style.opacity = "0";
+			}			
+			if(value >= 60){
+				sun1.style.opacity = "1"
+				sun2.style.opacity = "1";
+				sun3.style.opacity = "1";
+				sun4.style.opacity = "0.3";
+				sun5.style.opacity = "0";
+
+				moon1.style.opacity = "1";
+				moon2.style.opacity = "1";
+				moon3.style.opacity = "1";
+				moon4.style.opacity = "0.3";
+				moon5.style.opacity = "0";
+
+				rain1.style.opacity = "1";
+				rain2.style.opacity = "1";
+				rain3.style.opacity = "1";
+				rain4.style.opacity = "0.3";
+				rain5.style.opacity = "0";
+
+				wind1.style.opacity = "1";
+				wind2.style.opacity = "1";
+				wind3.style.opacity = "1";
+				wind4.style.opacity = "0.3";
+				wind5.style.opacity = "0";
+
+				people1.style.opacity = "1";
+				people2.style.opacity = "1";
+				people3.style.opacity = "1";
+				people4.style.opacity = "0.3";
+				people5.style.opacity = "0";
+
+				water1.style.opacity = "1";
+				water2.style.opacity = "1";
+				water3.style.opacity = "1";
+				water4.style.opacity = "0.3";
+				water5.style.opacity = "0";
+
+				fire1.style.opacity = "1";
+				fire2.style.opacity = "1";
+				fire3.style.opacity = "1";
+				fire4.style.opacity = "0.3";
+				fire5.style.opacity = "0";
+
+				mountain1.style.opacity = "1";
+				mountain2.style.opacity = "1";
+				mountain3.style.opacity = "1";
+				mountain4.style.opacity = "0.3";
+				mountain5.style.opacity = "0";
+
+				wood1.style.opacity = "1";
+				wood2.style.opacity = "1";
+				wood3.style.opacity = "1";
+				wood4.style.opacity = "0.3";
+				wood5.style.opacity = "0";
+
+				thumbUp.style.opacity = "0.2";
+				thumbDown.style.opacity = "0.2";
+				regular.style.opacity = "1";
+			}
+			if(value >= 70){
+				sun1.style.opacity = "1"
+				sun2.style.opacity = "1";
+				sun3.style.opacity = "1";
+				sun4.style.opacity = "0.6";
+				sun5.style.opacity = "0";
+
+				moon1.style.opacity = "1";
+				moon2.style.opacity = "1";
+				moon3.style.opacity = "1";
+				moon4.style.opacity = "0.6";
+				moon5.style.opacity = "0";
+
+				rain1.style.opacity = "1";
+				rain2.style.opacity = "1";
+				rain3.style.opacity = "1";
+				rain4.style.opacity = "0.6";
+				rain5.style.opacity = "0";
+
+				wind1.style.opacity = "1";
+				wind2.style.opacity = "1";
+				wind3.style.opacity = "1";
+				wind4.style.opacity = "0.6";
+				wind5.style.opacity = "0";
+
+				people1.style.opacity = "1";
+				people2.style.opacity = "1";
+				people3.style.opacity = "1";
+				people4.style.opacity = "0.6";
+				people5.style.opacity = "0";
+
+				water1.style.opacity = "1";
+				water2.style.opacity = "1";
+				water3.style.opacity = "1";
+				water4.style.opacity = "0.6";
+				water5.style.opacity = "0";
+
+				fire1.style.opacity = "1";
+				fire2.style.opacity = "1";
+				fire3.style.opacity = "1";
+				fire4.style.opacity = "0.6";
+				fire5.style.opacity = "0";
+
+				mountain1.style.opacity = "1";
+				mountain2.style.opacity = "1";
+				mountain3.style.opacity = "1";
+				mountain4.style.opacity = "0.6";
+				mountain5.style.opacity = "0";
+
+				wood1.style.opacity = "1";
+				wood2.style.opacity = "1";
+				wood3.style.opacity = "1";
+				wood4.style.opacity = "0.6";
+				wood5.style.opacity = "0";
+
+				thumbUp.style.opacity = "0.2";
+				thumbDown.style.opacity = "0.2";
+				simplified.style.opacity = "0";
+			}
+			if(value >= 82){
+				sun1.style.opacity = "1"
+				sun2.style.opacity = "1";
+				sun3.style.opacity = "1";
+				sun4.style.opacity = "1";
+				sun5.style.opacity = "0.3";
+
+				moon1.style.opacity = "1";
+				moon2.style.opacity = "1";
+				moon3.style.opacity = "1";
+				moon4.style.opacity = "1";
+				moon5.style.opacity = "0.3";
+
+				rain1.style.opacity = "1";
+				rain2.style.opacity = "1";
+				rain3.style.opacity = "1";
+				rain4.style.opacity = "1";
+				rain5.style.opacity = "0.3";
+
+				wind1.style.opacity = "1";
+				wind2.style.opacity = "1";
+				wind3.style.opacity = "1";
+				wind4.style.opacity = "1";
+				wind5.style.opacity = "0.3";
+
+				people1.style.opacity = "1";
+				people2.style.opacity = "1";
+				people3.style.opacity = "1";
+				people4.style.opacity = "1";
+				people5.style.opacity = "0.3";
+
+				water1.style.opacity = "1";
+				water2.style.opacity = "1";
+				water3.style.opacity = "1";
+				water4.style.opacity = "1";
+				water5.style.opacity = "0.3";
+
+				fire1.style.opacity = "1";
+				fire2.style.opacity = "1";
+				fire3.style.opacity = "1";
+				fire4.style.opacity = "1";
+				fire5.style.opacity = "0.3";
+
+				mountain1.style.opacity = "1";
+				mountain2.style.opacity = "1";
+				mountain3.style.opacity = "1";
+				mountain4.style.opacity = "1";
+				mountain5.style.opacity = "0.3";
+
+				wood1.style.opacity = "1";
+				wood2.style.opacity = "1";
+				wood3.style.opacity = "1";
+				wood4.style.opacity = "1";
+				wood5.style.opacity = "0.3";
+
+				thumbUp.style.opacity = "0.2";
+				thumbDown.style.opacity = "0.2";
+				simplified.style.opacity = "1";
+			}
+			if(value >= 90){
+				sun1.style.opacity = "1"
+				sun2.style.opacity = "1";
+				sun3.style.opacity = "1";
+				sun4.style.opacity = "1";
+				sun5.style.opacity = "0.6";
+
+				moon1.style.opacity = "1";
+				moon2.style.opacity = "1";
+				moon3.style.opacity = "1";
+				moon4.style.opacity = "1";
+				moon5.style.opacity = "0.6";
+
+				rain1.style.opacity = "1";
+				rain2.style.opacity = "1";
+				rain3.style.opacity = "1";
+				rain4.style.opacity = "1";
+				rain5.style.opacity = "0.6";
+
+				wind1.style.opacity = "1";
+				wind2.style.opacity = "1";
+				wind3.style.opacity = "1";
+				wind4.style.opacity = "1";
+				wind5.style.opacity = "0.6";
+
+				people1.style.opacity = "1";
+				people2.style.opacity = "1";
+				people3.style.opacity = "1";
+				people4.style.opacity = "1";
+				people5.style.opacity = "0.6";
+
+				water1.style.opacity = "1";
+				water2.style.opacity = "1";
+				water3.style.opacity = "1";
+				water4.style.opacity = "1";
+				water5.style.opacity = "0.6";
+
+				fire1.style.opacity = "1";
+				fire2.style.opacity = "1";
+				fire3.style.opacity = "1";
+				fire4.style.opacity = "1";
+				fire5.style.opacity = "0.6";
+
+				mountain1.style.opacity = "1";
+				mountain2.style.opacity = "1";
+				mountain3.style.opacity = "1";
+				mountain4.style.opacity = "1";
+				mountain5.style.opacity = "0.6";
+
+				wood1.style.opacity = "1";
+				wood2.style.opacity = "1";
+				wood3.style.opacity = "1";
+				wood4.style.opacity = "1";
+				wood5.style.opacity = "0.6";
+
+				thumbUp.style.opacity = "0.2";
+				thumbDown.style.opacity = "0.2";
+			}
+			if(value >= 100){
+				sun1.style.opacity = "1"
+				sun2.style.opacity = "1";
+				sun3.style.opacity = "1";
+				sun4.style.opacity = "1";
+				sun5.style.opacity = "1";
+
+				moon1.style.opacity = "1";
+				moon2.style.opacity = "1";
+				moon3.style.opacity = "1";
+				moon4.style.opacity = "1";
+				moon5.style.opacity = "1";
+
+				rain1.style.opacity = "1";
+				rain2.style.opacity = "1";
+				rain3.style.opacity = "1";
+				rain4.style.opacity = "1";
+				rain5.style.opacity = "1";
+
+				wind1.style.opacity = "1";
+				wind2.style.opacity = "1";
+				wind3.style.opacity = "1";
+				wind4.style.opacity = "1";
+				wind5.style.opacity = "1";
+
+				people1.style.opacity = "1";
+				people2.style.opacity = "1";
+				people3.style.opacity = "1";
+				people4.style.opacity = "1";
+				people5.style.opacity = "1";
+
+				water1.style.opacity = "1";
+				water2.style.opacity = "1";
+				water3.style.opacity = "1";
+				water4.style.opacity = "1";
+				water5.style.opacity = "1";
+
+				fire1.style.opacity = "1";
+				fire2.style.opacity = "1";
+				fire3.style.opacity = "1";
+				fire4.style.opacity = "1";
+				fire5.style.opacity = "1";
+
+				mountain1.style.opacity = "1";
+				mountain2.style.opacity = "1";
+				mountain3.style.opacity = "1";
+				mountain4.style.opacity = "1";
+				mountain5.style.opacity = "1";
+
+				wood1.style.opacity = "1";
+				wood2.style.opacity = "1";
+				wood3.style.opacity = "1";
+				wood4.style.opacity = "1";
+				wood5.style.opacity = "1";
+
+				thumbUp.style.opacity = "0.2";
+				thumbDown.style.opacity = "0.2";
+			}
+		}
+	</script>
+
+<!-- 	<div class="evolution">
+		<div class="sun">
+			<img src="oracle/sun-1.png" id="sun1">
+			<img src="bronze/sun-1.png" id="sun2">
+			<img src="seal/sun-1.png" id="sun3">
+			<img src="regular/sun-1.png" id="sun4">
+			<img src="simplified/sun-1.png" id="sun5">
+		</div>
+	</div> -->
+
+	<!--<div class="range">
+        <div class="sliderValue">
+          <span>100</span>
+        </div>
+		<div class="field">
+	          <div class="value left">0</div>
+					<input type="range" min="10" max="200" value="100" steps="1">
+	          <div class="value right">200</div>
+		</div>
+	<div id="slider">
+		<div id="custome-handle" class="ui-slider-handle"></div>
+	</div>
+	<div id="draggable" class="ui-widget-content">
+		<img src="yu.png" >
+	</div>
+	<div id="draggable" class="ui-widget-content">	
+		<img src="chuan.png" >
+	</div>
+	<div id="draggable" class="ui-widget-content">
+		<img src="yu.png" >
+	</div>
+		<div id="draggable" class="ui-widget-content">
+		<img src="yu.png" >
+	</div>
+		<div id="draggable" class="ui-widget-content">
+		<img src="si.png" >
+	</div>
+		<div id="draggable" class="ui-widget-content">
+		<img src="yu.png" >
+	</div>
+		<div id="draggable" class="ui-widget-content">
+		<img src="yu.png" >
+	</div>
+		<div id="draggable" class="ui-widget-content">
+		<img src="yu.png" >
+	</div>-->
+</body>
+</html>
