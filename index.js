@@ -25,7 +25,6 @@ $(document).ready(function(){
     })
     $(".empty").css({
       "box-shadow": "0 0 10px grey",
-      "cursor": "pointer",
     });
   })
   $(".empty").mouseleave(function(){
@@ -78,7 +77,6 @@ $(document).ready(function(){
     $(".evolution").css("box-shadow", "0 0 10px grey");
     $(".thumbUp").css("opacity","1");
     $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey");
     $(".icon").css("opacity", "1");
     $(".slider").css("opacity", "1");
   })
@@ -118,7 +116,6 @@ $(document).ready(function(){
     $(".evolution").css("box-shadow", "0 0 10px grey");
     $(".thumbUp").css("opacity","1");
     $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey");
     $(".icon").css("opacity", "1");
     $(".slider").css("opacity", "1");
   })
@@ -158,7 +155,6 @@ $(document).ready(function(){
     $(".evolution").css("box-shadow", "0 0 10px grey");
     $(".thumbUp").css("opacity","1");
     $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey");
     $(".icon").css("opacity", "1");
     $(".slider").css("opacity", "1");
   })
@@ -198,7 +194,6 @@ $(document).ready(function(){
     $(".evolution").css("box-shadow", "0 0 10px grey");
     $(".thumbUp").css("opacity","1");
     $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey");
     $(".icon").css("opacity", "1");
     $(".slider").css("opacity", "1");
   })
@@ -238,7 +233,6 @@ $(document).ready(function(){
     $(".evolution").css("box-shadow", "0 0 10px grey");
     $(".thumbUp").css("opacity","1");
     $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey");
     $(".icon").css("opacity", "1");
     $(".slider").css("opacity", "1");
   })
@@ -278,7 +272,6 @@ $(document).ready(function(){
     $(".evolution").css("box-shadow", "0 0 10px grey");
     $(".thumbUp").css("opacity","1");
     $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey");
     $(".icon").css("opacity", "1");
     $(".slider").css("opacity", "1");
   })
@@ -318,7 +311,6 @@ $(document).ready(function(){
     $(".evolution").css("box-shadow", "0 0 10px grey");
     $(".thumbUp").css("opacity","1");
     $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey");
     $(".icon").css("opacity", "1");
     $(".slider").css("opacity", "1");
   })
@@ -358,7 +350,6 @@ $(document).ready(function(){
     $(".evolution").css("box-shadow", "0 0 10px grey");
     $(".thumbUp").css("opacity","1");
     $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey");
     $(".icon").css("opacity", "1");
     $(".slider").css("opacity", "1");
   })
@@ -398,7 +389,6 @@ $(document).ready(function(){
     $(".evolution").css("box-shadow", "0 0 10px grey");
     $(".thumbUp").css("opacity","1");
     $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey");
     $(".icon").css("opacity", "1");
     $(".slider").css("opacity", "1");
   })
