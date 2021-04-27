@@ -55,6 +55,7 @@ $(document).ready(function(){
     $(".pic7-2").css("opacity", "0");
     $(".pic8-2").css("opacity", "0");
     $(".pic9-2").css("opacity", "0");
+
     $("#txt1").toggle();
     $("#txt2").hide();
     $("#txt3").hide();
@@ -64,6 +65,7 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+
     $(".sun").show();
     $(".moon").hide();
     $(".rain").hide();
@@ -91,7 +93,8 @@ $(document).ready(function(){
     $(".pic6-2").css("opacity", "0"); 
     $(".pic7-2").css("opacity", "0");
     $(".pic8-2").css("opacity", "0");
-    $(".pic9-2").css("opacity", "0");   
+    $(".pic9-2").css("opacity", "0"); 
+
     $("#txt2").toggle();
     $("#txt1").hide();
     $("#txt3").hide();
@@ -101,6 +104,7 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+
     $(".moon").show();
     $(".sun").hide();
     $(".rain").hide();
@@ -129,6 +133,7 @@ $(document).ready(function(){
     $(".pic7-2").css("opacity", "0");
     $(".pic8-2").css("opacity", "0");
     $(".pic9-2").css("opacity", "0");
+
     $("#txt3").toggle();
     $("#txt1").hide();
     $("#txt2").hide();
@@ -138,6 +143,7 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+
     $(".rain").show();
     $(".sun").hide();
     $(".moon").hide();
@@ -165,7 +171,8 @@ $(document).ready(function(){
     $(".pic6-2").css("opacity", "0"); 
     $(".pic7-2").css("opacity", "0");
     $(".pic8-2").css("opacity", "0");
-    $(".pic9-2").css("opacity", "0");   
+    $(".pic9-2").css("opacity", "0"); 
+
     $("#txt4").toggle();
     $("#txt1").hide();
     $("#txt3").hide();
@@ -175,6 +182,7 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+
     $(".wind").show();
     $(".sun").hide();
     $(".moon").hide();
@@ -203,6 +211,7 @@ $(document).ready(function(){
     $(".pic7-2").css("opacity", "0");
     $(".pic8-2").css("opacity", "0");
     $(".pic9-2").css("opacity", "0");
+
     $("#txt5").toggle();
     $("#txt1").hide();
     $("#txt3").hide();
@@ -212,6 +221,7 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+
     $(".people").show();
     $(".sun").hide();
     $(".moon").hide();
@@ -240,6 +250,7 @@ $(document).ready(function(){
     $(".pic7-2").css("opacity", "0");
     $(".pic8-2").css("opacity", "0");
     $(".pic9-2").css("opacity", "0");
+
     $("#txt6").toggle();
     $("#txt5").hide();
     $("#txt1").hide();
@@ -249,6 +260,7 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+
     $(".water").show();
     $(".sun").hide();
     $(".moon").hide();
@@ -277,6 +289,7 @@ $(document).ready(function(){
     $(".pic6-2").css("opacity", "0");
     $(".pic8-2").css("opacity", "0");
     $(".pic9-2").css("opacity", "0");
+
     $("#txt7").toggle();
     $("#txt5").hide();
     $("#txt1").hide();
@@ -286,6 +299,7 @@ $(document).ready(function(){
     $("#txt6").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+
     $(".fire").show();
     $(".sun").hide();
     $(".moon").hide();
@@ -314,6 +328,7 @@ $(document).ready(function(){
     $(".pic7-2").css("opacity", "0");
     $(".pic6-2").css("opacity", "0");
     $(".pic9-2").css("opacity", "0");
+
     $("#txt8").toggle();
     $("#txt5").hide();
     $("#txt1").hide();
@@ -323,6 +338,7 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt6").hide();
     $("#txt9").hide();
+
     $(".mountain").show();
     $(".sun").hide();
     $(".moon").hide();
@@ -351,6 +367,7 @@ $(document).ready(function(){
     $(".pic7-2").css("opacity", "0");
     $(".pic8-2").css("opacity", "0");
     $(".pic6-2").css("opacity", "0");
+
     $("#txt9").toggle();
     $("#txt5").hide();
     $("#txt1").hide();
@@ -360,6 +377,7 @@ $(document).ready(function(){
     $("#txt6").hide();
     $("#txt8").hide();
     $("#txt7").hide();
+
     $(".wood").show();
     $(".sun").hide();
     $(".moon").hide();
