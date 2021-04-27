@@ -80,6 +80,7 @@ $(document).ready(function(){
     $(".thumbDown").css("opacity","1");
     $(".empty").css("box-shadow","0px 0px 10px grey inset");
     $(".icon").css("opacity", "1");
+    $(".slider").css("opacity", "1");
   })
 })
 
@@ -119,6 +120,7 @@ $(document).ready(function(){
     $(".thumbDown").css("opacity","1");
     $(".empty").css("box-shadow","0px 0px 10px grey inset");
     $(".icon").css("opacity", "1");
+    $(".slider").css("opacity", "1");
   })
 })
 
@@ -158,6 +160,7 @@ $(document).ready(function(){
     $(".thumbDown").css("opacity","1");
     $(".empty").css("box-shadow","0px 0px 10px grey inset");
     $(".icon").css("opacity", "1");
+    $(".slider").css("opacity", "1");
   })
 })
 
@@ -197,6 +200,7 @@ $(document).ready(function(){
     $(".thumbDown").css("opacity","1");
     $(".empty").css("box-shadow","0px 0px 10px grey inset");
     $(".icon").css("opacity", "1");
+    $(".slider").css("opacity", "1");
   })
 })
 
@@ -236,6 +240,7 @@ $(document).ready(function(){
     $(".thumbDown").css("opacity","1");
     $(".empty").css("box-shadow","0px 0px 10px grey inset");
     $(".icon").css("opacity", "1");
+    $(".slider").css("opacity", "1");
   })
 })
 
@@ -275,6 +280,7 @@ $(document).ready(function(){
     $(".thumbDown").css("opacity","1");
     $(".empty").css("box-shadow","0px 0px 10px grey inset");
     $(".icon").css("opacity", "1");
+    $(".slider").css("opacity", "1");
   })
 })
 
@@ -314,6 +320,7 @@ $(document).ready(function(){
     $(".thumbDown").css("opacity","1");
     $(".empty").css("box-shadow","0px 0px 10px grey inset");
     $(".icon").css("opacity", "1");
+    $(".slider").css("opacity", "1");
   })
 })
 
@@ -353,6 +360,7 @@ $(document).ready(function(){
     $(".thumbDown").css("opacity","1");
     $(".empty").css("box-shadow","0px 0px 10px grey inset");
     $(".icon").css("opacity", "1");
+    $(".slider").css("opacity", "1");
   })
 })
 
@@ -392,6 +400,7 @@ $(document).ready(function(){
     $(".thumbDown").css("opacity","1");
     $(".empty").css("box-shadow","0px 0px 10px grey inset");
     $(".icon").css("opacity", "1");
+    $(".slider").css("opacity", "1");
   })
 })
 
