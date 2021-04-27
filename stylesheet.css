@@ -239,18 +239,7 @@ img{
 	cursor: pointer;
 }
 
-.arrow{
-	width: 100px;
-	margin-top: 100px;
-	margin-left: 50px;
-	transition: .5s ease;
-	opacity: 0;
-}
 
-.arrow2{
-	box-shadow: none;
-
-}
 
 
 

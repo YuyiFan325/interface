@@ -1,14 +1,3 @@
-// $(document).ready(function(){
-//   $("#pic1").click(function(){
-//     $("body").css("background","#000");
-//     $(".empty").css("box-shadow","0px 0px 15px #000 inset");
-//   })
-// })
-
-// $( function() {
-//     $( ".empty" ).draggable();
-//   } );
-
 $(document).ready(function(){
   $(".pictures, .display").mouseover(function(){
     $(".aboutLeft").css({
@@ -75,6 +64,20 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+    $(".sun").show();
+    $(".moon").hide();
+    $(".rain").hide();
+    $(".people").hide();
+    $(".water").hide();
+    $(".wind").hide();
+    $(".fire").hide();
+    $(".mountain").hide();
+    $(".wood").hide();
+    $(".evolution").css("box-shadow", "0 0 10px grey");
+    $(".thumbUp").css("opacity","1");
+    $(".thumbDown").css("opacity","1");
+    $(".empty").css("box-shadow","0px 0px 10px grey inset");
+    $(".icon").css("opacity", "1");
   })
 })
 
@@ -98,6 +101,20 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+    $(".moon").show();
+    $(".sun").hide();
+    $(".rain").hide();
+    $(".people").hide();
+    $(".water").hide();
+    $(".wind").hide();
+    $(".fire").hide();
+    $(".mountain").hide();
+    $(".wood").hide();
+    $(".evolution").css("box-shadow", "0 0 10px grey");
+    $(".thumbUp").css("opacity","1");
+    $(".thumbDown").css("opacity","1");
+    $(".empty").css("box-shadow","0px 0px 10px grey inset");
+    $(".icon").css("opacity", "1");
   })
 })
 
@@ -121,6 +138,21 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+    $("#txt3").click(function(){
+    $(".rain").show();
+    $(".sun").hide();
+    $(".moon").hide();
+    $(".people").hide();
+    $(".water").hide();
+    $(".wind").hide();
+    $(".fire").hide();
+    $(".mountain").hide();
+    $(".wood").hide();
+    $(".evolution").css("box-shadow", "0 0 10px grey");
+    $(".thumbUp").css("opacity","1");
+    $(".thumbDown").css("opacity","1");
+    $(".empty").css("box-shadow","0px 0px 10px grey inset");
+    $(".icon").css("opacity", "1");
   })
 })
 
@@ -144,6 +176,20 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+    $(".wind").show();
+    $(".sun").hide();
+    $(".moon").hide();
+    $(".rain").hide();
+    $(".water").hide();
+    $(".people").hide();
+    $(".fire").hide();
+    $(".mountain").hide();
+    $(".wood").hide();
+    $(".evolution").css("box-shadow", "0 0 10px grey");
+    $(".thumbUp").css("opacity","1");
+    $(".thumbDown").css("opacity","1");
+    $(".empty").css("box-shadow","0px 0px 10px grey inset");
+    $(".icon").css("opacity", "1");
   })
 })
 
@@ -167,6 +213,20 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+    $(".people").show();
+    $(".sun").hide();
+    $(".moon").hide();
+    $(".wind").hide();
+    $(".rain").hide();
+    $(".water").hide();
+    $(".fire").hide();
+    $(".mountain").hide();
+    $(".wood").hide();
+    $(".evolution").css("box-shadow", "0 0 10px grey");
+    $(".thumbUp").css("opacity","1");
+    $(".thumbDown").css("opacity","1");
+    $(".empty").css("box-shadow","0px 0px 10px grey inset");
+    $(".icon").css("opacity", "1");
   })
 })
 
@@ -190,6 +250,20 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+    $(".water").show();
+    $(".sun").hide();
+    $(".moon").hide();
+    $(".people").hide();
+    $(".rain").hide();
+    $(".wind").hide();
+    $(".fire").hide();
+    $(".mountain").hide();
+    $(".wood").hide();
+    $(".evolution").css("box-shadow", "0 0 10px grey");
+    $(".thumbUp").css("opacity","1");
+    $(".thumbDown").css("opacity","1");
+    $(".empty").css("box-shadow","0px 0px 10px grey inset");
+    $(".icon").css("opacity", "1");
   })
 })
 
@@ -213,6 +287,20 @@ $(document).ready(function(){
     $("#txt6").hide();
     $("#txt8").hide();
     $("#txt9").hide();
+    $(".fire").show();
+    $(".sun").hide();
+    $(".moon").hide();
+    $(".people").hide();
+    $(".rain").hide();
+    $(".wind").hide();
+    $(".water").hide();
+    $(".mountain").hide();
+    $(".wood").hide();
+    $(".evolution").css("box-shadow", "0 0 10px grey");
+    $(".thumbUp").css("opacity","1");
+    $(".thumbDown").css("opacity","1");
+    $(".empty").css("box-shadow","0px 0px 10px grey inset");
+    $(".icon").css("opacity", "1");
   })
 })
 
@@ -236,6 +324,21 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt6").hide();
     $("#txt9").hide();
+    $("#txt7").click(function(){
+    $(".mountain").show();
+    $(".sun").hide();
+    $(".moon").hide();
+    $(".people").hide();
+    $(".rain").hide();
+    $(".wind").hide();
+    $(".fire").hide();
+    $(".water").hide();
+    $(".wood").hide();
+    $(".evolution").css("box-shadow", "0 0 10px grey");
+    $(".thumbUp").css("opacity","1");
+    $(".thumbDown").css("opacity","1");
+    $(".empty").css("box-shadow","0px 0px 10px grey inset");
+    $(".icon").css("opacity", "1");
   })
 })
 
@@ -259,178 +362,6 @@ $(document).ready(function(){
     $("#txt6").hide();
     $("#txt8").hide();
     $("#txt7").hide();
-  })
-})
-
-
-
-
-
-
-
-
-$(document).ready(function(){
-  $("#txt1").click(function(){
-    $(".sun").show();
-    $(".moon").hide();
-    $(".rain").hide();
-    $(".people").hide();
-    $(".water").hide();
-    $(".wind").hide();
-    $(".fire").hide();
-    $(".mountain").hide();
-    $(".wood").hide();
-    $(".evolution").css("box-shadow", "0 0 10px grey");
-    $(".thumbUp").css("opacity","1");
-    $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey inset");
-    $(".arrow").css("opacity", "1");
-    $(".icon").css("opacity", "1");
-  })
-})
-
-$(document).ready(function(){
-  $("#txt2").click(function(){
-    $(".moon").show();
-    $(".sun").hide();
-    $(".rain").hide();
-    $(".people").hide();
-    $(".water").hide();
-    $(".wind").hide();
-    $(".fire").hide();
-    $(".mountain").hide();
-    $(".wood").hide();
-    $(".evolution").css("box-shadow", "0 0 10px grey");
-    $(".thumbUp").css("opacity","1");
-    $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey inset");
-    $(".arrow").css("opacity", "1");
-    $(".icon").css("opacity", "1");
-  })
-})
-
-$(document).ready(function(){
-  $("#txt3").click(function(){
-    $(".rain").show();
-    $(".sun").hide();
-    $(".moon").hide();
-    $(".people").hide();
-    $(".water").hide();
-    $(".wind").hide();
-    $(".fire").hide();
-    $(".mountain").hide();
-    $(".wood").hide();
-    $(".evolution").css("box-shadow", "0 0 10px grey");
-    $(".thumbUp").css("opacity","1");
-    $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey inset");
-    $(".arrow").css("opacity", "1");
-    $(".icon").css("opacity", "1");
-  })
-})
-
-$(document).ready(function(){
-  $("#txt4").click(function(){
-    $(".wind").show();
-    $(".sun").hide();
-    $(".moon").hide();
-    $(".rain").hide();
-    $(".water").hide();
-    $(".people").hide();
-    $(".fire").hide();
-    $(".mountain").hide();
-    $(".wood").hide();
-    $(".evolution").css("box-shadow", "0 0 10px grey");
-    $(".thumbUp").css("opacity","1");
-    $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey inset");
-    $(".arrow").css("opacity", "1");
-    $(".icon").css("opacity", "1");
-  })
-})
-
-$(document).ready(function(){
-  $("#txt5").click(function(){
-    $(".people").show();
-    $(".sun").hide();
-    $(".moon").hide();
-    $(".wind").hide();
-    $(".rain").hide();
-    $(".water").hide();
-    $(".fire").hide();
-    $(".mountain").hide();
-    $(".wood").hide();
-    $(".evolution").css("box-shadow", "0 0 10px grey");
-    $(".thumbUp").css("opacity","1");
-    $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey inset");
-    $(".arrow").css("opacity", "1");
-    $(".icon").css("opacity", "1");
-  })
-})
-
-$(document).ready(function(){
-  $("#txt6").click(function(){
-    $(".water").show();
-    $(".sun").hide();
-    $(".moon").hide();
-    $(".people").hide();
-    $(".rain").hide();
-    $(".wind").hide();
-    $(".fire").hide();
-    $(".mountain").hide();
-    $(".wood").hide();
-    $(".evolution").css("box-shadow", "0 0 10px grey");
-    $(".thumbUp").css("opacity","1");
-    $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey inset");
-    $(".arrow").css("opacity", "1");
-    $(".icon").css("opacity", "1");
-  })
-})
-
-$(document).ready(function(){
-  $("#txt7").click(function(){
-    $(".fire").show();
-    $(".sun").hide();
-    $(".moon").hide();
-    $(".people").hide();
-    $(".rain").hide();
-    $(".wind").hide();
-    $(".water").hide();
-    $(".mountain").hide();
-    $(".wood").hide();
-    $(".evolution").css("box-shadow", "0 0 10px grey");
-    $(".thumbUp").css("opacity","1");
-    $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey inset");
-    $(".arrow").css("opacity", "1");
-    $(".icon").css("opacity", "1");
-  })
-})
-
-$(document).ready(function(){
-  $("#txt8").click(function(){
-    $(".mountain").show();
-    $(".sun").hide();
-    $(".moon").hide();
-    $(".people").hide();
-    $(".rain").hide();
-    $(".wind").hide();
-    $(".fire").hide();
-    $(".water").hide();
-    $(".wood").hide();
-    $(".evolution").css("box-shadow", "0 0 10px grey");
-    $(".thumbUp").css("opacity","1");
-    $(".thumbDown").css("opacity","1");
-    $(".empty").css("box-shadow","0px 0px 10px grey inset");
-    $(".arrow").css("opacity", "1");
-    $(".icon").css("opacity", "1");
-  })
-})
-
-$(document).ready(function(){
-  $("#txt9").click(function(){
     $(".wood").show();
     $(".sun").hide();
     $(".moon").hide();
@@ -444,10 +375,187 @@ $(document).ready(function(){
     $(".thumbUp").css("opacity","1");
     $(".thumbDown").css("opacity","1");
     $(".empty").css("box-shadow","0px 0px 10px grey inset");
-    $(".arrow").css("opacity", "1");
     $(".icon").css("opacity", "1");
   })
 })
+
+
+
+
+
+
+
+
+// $(document).ready(function(){
+//   $("#txt1").click(function(){
+//     $(".sun").show();
+//     $(".moon").hide();
+//     $(".rain").hide();
+//     $(".people").hide();
+//     $(".water").hide();
+//     $(".wind").hide();
+//     $(".fire").hide();
+//     $(".mountain").hide();
+//     $(".wood").hide();
+//     $(".evolution").css("box-shadow", "0 0 10px grey");
+//     $(".thumbUp").css("opacity","1");
+//     $(".thumbDown").css("opacity","1");
+//     $(".empty").css("box-shadow","0px 0px 10px grey inset");
+//     $(".icon").css("opacity", "1");
+//   })
+// })
+
+// $(document).ready(function(){
+//   $("#txt2").click(function(){
+//     $(".moon").show();
+//     $(".sun").hide();
+//     $(".rain").hide();
+//     $(".people").hide();
+//     $(".water").hide();
+//     $(".wind").hide();
+//     $(".fire").hide();
+//     $(".mountain").hide();
+//     $(".wood").hide();
+//     $(".evolution").css("box-shadow", "0 0 10px grey");
+//     $(".thumbUp").css("opacity","1");
+//     $(".thumbDown").css("opacity","1");
+//     $(".empty").css("box-shadow","0px 0px 10px grey inset");
+//     $(".icon").css("opacity", "1");
+//   })
+// })
+
+// $(document).ready(function(){
+//   $("#txt3").click(function(){
+//     $(".rain").show();
+//     $(".sun").hide();
+//     $(".moon").hide();
+//     $(".people").hide();
+//     $(".water").hide();
+//     $(".wind").hide();
+//     $(".fire").hide();
+//     $(".mountain").hide();
+//     $(".wood").hide();
+//     $(".evolution").css("box-shadow", "0 0 10px grey");
+//     $(".thumbUp").css("opacity","1");
+//     $(".thumbDown").css("opacity","1");
+//     $(".empty").css("box-shadow","0px 0px 10px grey inset");
+//     $(".icon").css("opacity", "1");
+//   })
+// })
+
+// $(document).ready(function(){
+//   $("#txt4").click(function(){
+//     $(".wind").show();
+//     $(".sun").hide();
+//     $(".moon").hide();
+//     $(".rain").hide();
+//     $(".water").hide();
+//     $(".people").hide();
+//     $(".fire").hide();
+//     $(".mountain").hide();
+//     $(".wood").hide();
+//     $(".evolution").css("box-shadow", "0 0 10px grey");
+//     $(".thumbUp").css("opacity","1");
+//     $(".thumbDown").css("opacity","1");
+//     $(".empty").css("box-shadow","0px 0px 10px grey inset");
+//     $(".icon").css("opacity", "1");
+//   })
+// })
+
+// $(document).ready(function(){
+//   $("#txt5").click(function(){
+//     $(".people").show();
+//     $(".sun").hide();
+//     $(".moon").hide();
+//     $(".wind").hide();
+//     $(".rain").hide();
+//     $(".water").hide();
+//     $(".fire").hide();
+//     $(".mountain").hide();
+//     $(".wood").hide();
+//     $(".evolution").css("box-shadow", "0 0 10px grey");
+//     $(".thumbUp").css("opacity","1");
+//     $(".thumbDown").css("opacity","1");
+//     $(".empty").css("box-shadow","0px 0px 10px grey inset");
+//     $(".icon").css("opacity", "1");
+//   })
+// })
+
+// $(document).ready(function(){
+//   $("#txt6").click(function(){
+//     $(".water").show();
+//     $(".sun").hide();
+//     $(".moon").hide();
+//     $(".people").hide();
+//     $(".rain").hide();
+//     $(".wind").hide();
+//     $(".fire").hide();
+//     $(".mountain").hide();
+//     $(".wood").hide();
+//     $(".evolution").css("box-shadow", "0 0 10px grey");
+//     $(".thumbUp").css("opacity","1");
+//     $(".thumbDown").css("opacity","1");
+//     $(".empty").css("box-shadow","0px 0px 10px grey inset");
+//     $(".icon").css("opacity", "1");
+//   })
+// })
+
+// $(document).ready(function(){
+//   $("#txt7").click(function(){
+//     $(".fire").show();
+//     $(".sun").hide();
+//     $(".moon").hide();
+//     $(".people").hide();
+//     $(".rain").hide();
+//     $(".wind").hide();
+//     $(".water").hide();
+//     $(".mountain").hide();
+//     $(".wood").hide();
+//     $(".evolution").css("box-shadow", "0 0 10px grey");
+//     $(".thumbUp").css("opacity","1");
+//     $(".thumbDown").css("opacity","1");
+//     $(".empty").css("box-shadow","0px 0px 10px grey inset");
+//     $(".icon").css("opacity", "1");
+//   })
+// })
+
+// $(document).ready(function(){
+//   $("#txt8").click(function(){
+//     $(".mountain").show();
+//     $(".sun").hide();
+//     $(".moon").hide();
+//     $(".people").hide();
+//     $(".rain").hide();
+//     $(".wind").hide();
+//     $(".fire").hide();
+//     $(".water").hide();
+//     $(".wood").hide();
+//     $(".evolution").css("box-shadow", "0 0 10px grey");
+//     $(".thumbUp").css("opacity","1");
+//     $(".thumbDown").css("opacity","1");
+//     $(".empty").css("box-shadow","0px 0px 10px grey inset");
+//     $(".icon").css("opacity", "1");
+//   })
+// })
+
+// $(document).ready(function(){
+//   $("#txt9").click(function(){
+//     $(".wood").show();
+//     $(".sun").hide();
+//     $(".moon").hide();
+//     $(".people").hide();
+//     $(".rain").hide();
+//     $(".wind").hide();
+//     $(".fire").hide();
+//     $(".mountain").hide();
+//     $(".water").hide();
+//     $(".evolution").css("box-shadow", "0 0 10px grey");
+//     $(".thumbUp").css("opacity","1");
+//     $(".thumbDown").css("opacity","1");
+//     $(".empty").css("box-shadow","0px 0px 10px grey inset");
+//     $(".icon").css("opacity", "1");
+//   })
+// })
 // $(document).ready(function(){
 //   $("#sun1").mouseover(function(){
 //     $("#sun1").css("opacity","1"); 
