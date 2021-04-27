@@ -129,7 +129,7 @@
 				<div class="thumbDown"></div>
 			</div>
 			<div class="prograss-bar"></div>
-			<input type="range" min="0" max="100" value="0">
+			<input type="range" min="0" max="100" value="1">
 		</div>	
 
 		<img src="icon.png" class="icon">
@@ -216,8 +216,8 @@
 		
 		slider.oninput = function(){
 			let value =slider.value;
-			thumbUp.style.left = 5 + value + "%";
-			thumbDown.style.left = 5 + value + "%";
+			thumbUp.style.left = value + "%";
+			thumbDown.style.left = value + "%";
 			bar.style.width = value + "%";
 			if(value < 5){
 				sun1.style.opacity = "0";
