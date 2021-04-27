@@ -138,7 +138,6 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt8").hide();
     $("#txt9").hide();
-    $("#txt3").click(function(){
     $(".rain").show();
     $(".sun").hide();
     $(".moon").hide();
