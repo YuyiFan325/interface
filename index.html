@@ -216,8 +216,8 @@
 		
 		slider.oninput = function(){
 			let value =slider.value;
-			thumbUp.style.left = (value+5) + "%";
-			thumbDown.style.left = (value+5) + "%";
+			thumbUp.style.left = 5 + value + "%";
+			thumbDown.style.left = 5 + value + "%";
 			bar.style.width = value + "%";
 			if(value < 5){
 				sun1.style.opacity = "0";
