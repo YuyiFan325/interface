@@ -324,7 +324,6 @@ $(document).ready(function(){
     $("#txt7").hide();
     $("#txt6").hide();
     $("#txt9").hide();
-    $("#txt7").click(function(){
     $(".mountain").show();
     $(".sun").hide();
     $(".moon").hide();
