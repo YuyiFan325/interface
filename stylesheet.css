@@ -318,15 +318,15 @@ img{
 	height: 100%;
 	top: 0;
 	outline: none;
-/*	-webkit-appearance: none;
-*/	background: none;
+	-webkit-appearance: none;
+	background: none;
 }
 
 .slider input::-webkit-slider-thumb{
 	height: 15px;
 	width: 15px;
-/*	-webkit-appearance: none;
-*/	background: none;
+	-webkit-appearance: none;
+	background: none;
 	cursor: pointer;
 }
 
